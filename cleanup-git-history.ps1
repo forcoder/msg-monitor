@@ -10,8 +10,8 @@
 # 需要清除的敏感模式（这些是字符串字面值，会被替换为空字符串）
 # 请根据实际情况修改这些值
 $patternsToRemove = @(
-    "LTAI5tMdpcET7GxLaJv96gV9",   # 阿里云 Access Key ID
-    "yzIt7gKffm5ZpDMSiW7sXCYXPvATUx"  # 阿里云 Access Key Secret
+    "REMOVED_AKID",   # 阿里云 Access Key ID
+    "REMOVED_AKSK"  # 阿里云 Access Key Secret
     # 添加更多需要清除的敏感字符串
 )
 
