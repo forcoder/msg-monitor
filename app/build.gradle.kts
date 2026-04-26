@@ -131,8 +131,8 @@ dependencies {
     implementation("androidx.hilt:hilt-work:1.2.0")
 
     // Hilt dependency injection
-    implementation("com.google.dagger:hilt-android:3.0.0")
-    ksp("com.google.dagger:hilt-android-compiler:3.0.0")
+    implementation("com.google.dagger:hilt-android:2.50")
+    kapt("com.google.dagger:hilt-android-compiler:2.50")
 
     // Retrofit for networking
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
